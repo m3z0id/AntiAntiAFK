@@ -6,8 +6,11 @@ import datetime
 def checkTime():
     currentTime = datetime.datetime.now()
     if currentTime.hour == 1:
-        print("[", currentTime.hour, ":", currentTime.minute, ":", currentTime.second, "]", "Quitting...")
-        exit(0)
+        if currentTime.minute == 1:
+            if currentTime.second == 1:
+                print("[", currentTime.hour, ":", currentTime.minute, ":", currentTime.second, "]", "Quitting...")
+                exit(0)
+
 
 def hold_key(key, duration):
     subprocess.run(["xdotool", "keydown", key])
