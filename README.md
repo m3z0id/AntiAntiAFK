@@ -1,2 +1,2 @@
 # AntiAntiAFK
-Simple Anti AntiAFK script made for Minecraft. __Now only for Linux__
+Simple Anti AntiAFK script made for Minecraft. __Available only for Linux, Windows version is in development__
